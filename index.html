@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="style.css" rel="stylesheet" />
+    <title>Clock Bruh</title>
+  </head>
+  <body>
+    <h1 class="head">This Me Clock</h1>
+    <div class="container">
+      <div class="clock">
+        <div class="hand hour" data-hour-hand></div>
+        <div class="hand minute" data-minute-hand></div>
+        <div class="hand second" data-second-hand></div>
+        <div class="number number1">1</div>
+        <div class="number number2">2</div>
+        <div class="number number3">3</div>
+        <div class="number number4">4</div>
+        <div class="number number5">5</div>
+        <div class="number number6">6</div>
+        <div class="number number7">7</div>
+        <div class="number number8">8</div>
+        <div class="number number9">9</div>
+        <div class="number number10">10</div>
+        <div class="number number11">11</div>
+        <div class="number number12">12</div>
+      </div>
+    </div>
+    <h2 class="watch">Me Stop Watch</h2>
+    <div class="box">
+      <div id="display">
+        00:00:00:00
+      </div>
+      <div class="buttons">
+        <button id="startStop" onclick="startStop()">Start</button
+        ><button id="reset" onclick="toReset()">Reset</button>
+      </div>
+    </div>
+  </body>
+  <script src="clock.js"></script>
+</html>
